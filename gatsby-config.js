@@ -5,6 +5,7 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+    'gatsby-plugin-emotion',
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -13,8 +14,8 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`, //para optimizar el tamaño de la imagenes
+    `gatsby-plugin-sharp`,      //para optimizar el tamaño de la imagenes
     /*{
       resolve: `gatsby-plugin-manifest`,
       options: {
