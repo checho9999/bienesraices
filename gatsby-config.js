@@ -16,6 +16,14 @@ module.exports = {
     },
     `gatsby-transformer-sharp`, //para optimizar el tamaño de la imagenes
     `gatsby-plugin-sharp`,      //para optimizar el tamaño de la imagenes
+    {
+      resolve: `gatsby-source-strapi`,
+      options: {
+        apiURL: `http://localhost:1337`,
+        queryLimit: 1000,
+        contentTypes: ['propiedades', 'paginas', 'categorias']
+      }
+    }    
     /*{
       resolve: `gatsby-plugin-manifest`,
       options: {
