@@ -37,7 +37,7 @@ const Header = () => {
                     }
                 `}
             >
-                <Link>
+                <Link to='/'>
                     <img src={logo.publicURL} alt='Logotipo Bienes Raices' />
                 </Link>
 

@@ -6,7 +6,7 @@ import styled from '@emotion/styled';
 import BackgroundImage from 'gatsby-background-image';
 import heroCSS from '../css/hero.module.css';
 import Encuentra from '../components/encuentra';
-import ListadoPropiedades from '../components/ListadoPropiedades';
+import ListadoPropiedades from '../components/listadoPropiedades';
 
 const ImagenBackground = styled(BackgroundImage)`
     height: 600px;
